@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400px;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(15, 15, 15);
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-hash {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.8);
+  border-color: blue;
+}
+
+.button-hash:hover,
+.button-hash:focus {
+  background-color: blue;
+}
+
+.button-clean {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.8);
+  border-color: red;
+}
+
+.button-clean:hover,
+.button-clean:focus {
+  background-color: red;
+}
+
+.hash {
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  textarea {
+    width: 250px;
+    height: 200px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .hash {
+    font-size: 15px;
+  }
+}
