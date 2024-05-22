@@ -1,0 +1,11 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "Мій перший проект",
+    "main": "script.js",
+    "scripts": {
+      "start": "npm run build"
+    },
+    "dependencies": {}
+  }
+  
