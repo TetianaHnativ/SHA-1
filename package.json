@@ -1,5 +1,5 @@
 {
-    "name": "SHA-1",
+    "name": "sha-1",
     "version": "1.0.0",
     "description": "Опис вашого проекту",
     "main": "index.html",
