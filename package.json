@@ -1,0 +1,12 @@
+{
+    "name": "SHA-1",
+    "version": "1.0.0",
+    "description": "Опис вашого проекту",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run start",
+        "build": "npm run build"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
